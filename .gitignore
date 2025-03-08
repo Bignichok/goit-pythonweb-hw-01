@@ -1,0 +1,34 @@
+# Ignore the virtual environment created by Poetry (if it's inside the project)
+.venv/
+
+# Bytecode and cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Ignore test and coverage reports
+.coverage
+htmlcov/
+.cache/
+.tox/
+
+# Black and MyPy cache
+.mypy_cache/
+.black/
+
+# Pre-commit hooks cache
+.pre-commit-config.yaml~
+.pre-commit/
+
+# Ignore dependency lock file (optional)
+poetry.lock
